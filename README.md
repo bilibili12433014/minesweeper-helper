@@ -7,6 +7,10 @@ e-mail:bilibili12433014@qq.com
 qq群:676475241
 github:https://github.com/bilibili12433014/minesweeper-helper
 
+扫雷.sln：to open in visual stdio
+扫雷.py:main file
+build.bat:to build  by pyinstaller
+
 version:1.0
 使用说明：
 软件支持自动打开扫雷(win7)
@@ -18,4 +22,4 @@ version:1.0
 不支持移动或放大游戏窗口，请放大或移动后F6重启软件
 不支持识别数字8
 只支持最基本的推理
-有任何建议或疑问请加QQ群
+有任何建议或疑问请加QQ群或e-mail或b站私信
