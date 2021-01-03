@@ -1,3 +1,11 @@
+#version:1.0
+#Copyright 2021  github.com/bilibili12433014
+#originally made by:
+#bilibili user:明媚的山岚
+#uid:12433014
+#e-mail:bilibili12433014@qq.com
+#qq群:676475241
+
 print('''version:1.0
 使用说明：
 软件支持自动打开扫雷(win7)
