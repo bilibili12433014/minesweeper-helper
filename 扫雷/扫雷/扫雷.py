@@ -59,8 +59,8 @@ def window_capture(filename):
     aa,bb=win32api.GetCursorPos()
     #win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTUP,0,0)
     #win32api.mouse_event(win32con.MOUSEEVENTF_MIDDLEUP,0,0)
-    win32api.SetCursorPos((0,0))
-    sleep(0.005)
+    #win32api.SetCursorPos((0,0))
+    #sleep(0.005)
     hwnd = 0  # 窗口的编号，0号表示当前活跃窗口
     # 根据窗口句柄获取窗口的设备上下文DC（Divice Context）
     hwndDC = win32gui.GetWindowDC(hwnd)
@@ -88,7 +88,7 @@ def window_capture(filename):
             hh=False
         except:
             sleep(0.05)
-    win32api.SetCursorPos((aa,bb))
+    #win32api.SetCursorPos((aa,bb))
 class ele:
     def __init__(self,x,y):
         self.pos=(x,y)
